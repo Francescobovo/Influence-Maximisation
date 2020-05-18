@@ -1,2 +1,5 @@
-# Influence-Maximisation
+# Influence-Maximisation - Course Project Paper
 Influence Maximisation using Reverse Influence Sampling
+
+## Abstract
+Given a real-world network such as a blog network, which blogs should be monitored in order to detect an upcoming viral trend? Or, considering a city water distribution network, providing water to households via pipes and junctions, where should sensors be installed in order to detect accidental or malicious contaminations as quickly as possible? These problems can be generalised to the problem of acquiring a set of nodes within a network that detect the spread of some type of information/outbreak as effectively as possible. In other words, finding the set of nodes with the capability of influencing the largest number of nodes in the network. Existing algorithms exploit the submodular properties of this problem which outperform naive greedy approaches. A new algorithm called Reverse Influence Sampling (RIS) is introduced and compared with an older more well-known algorithm CELF. Their resulting influence spreads and run times are compared and evaluated. It is found that the RIS algorithm outperforms the more well-known algorithm CELF improving both in computational efficiency and speed.
